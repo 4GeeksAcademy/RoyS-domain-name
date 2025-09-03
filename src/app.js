@@ -2,10 +2,20 @@ import "bootstrap";
 import "./style.css";
 
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+let pronoun = ['my', 'your', 'the', 'our'];
+let adj = ['amazing', 'crazy', 'funny', 'cool'];
+let noun = ['developer', 'pizza', 'unicorn', 'geek'];
+let extensions = ['.com', '.net', '.us', '.int', '.dev'];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+    for (let p of pronounList) {
+        for (let a of adjList) {
+              for (let n of nounList) {
+                      for (let ext of extList) {
+
+                                console.log(p + a + n + ext);
+                                        }
+                                              }
+                                                  }
+                                                    }
+                                                    }
+                                                    return domains;
